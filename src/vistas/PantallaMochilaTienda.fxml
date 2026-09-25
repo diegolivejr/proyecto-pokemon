@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerMochila">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="920.0">
+               <image>
+                  <Image url="@../imagenes/fondos_pantallas/fondo_mochila.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="62.0" layoutY="35.0" prefHeight="64.0" prefWidth="196.0" text="TIENDA">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Label>
+            <Label layoutX="595.0" layoutY="35.0" text="MOCHILA">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="126.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/anillo unico.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="119.0" layoutY="139.0" text="ANILLO UNICO:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="140.0" text="4500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="68.0" layoutY="128.0" mnemonicParsing="false" onAction="#anillo" opacity="0.0" prefHeight="50.0" prefWidth="214.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="188.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/baston.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="119.0" layoutY="203.0" text="BASTON:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="187.0" layoutY="203.0" text="1500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="61.0" layoutY="188.0" mnemonicParsing="false" onAction="#baston" opacity="0.0" prefHeight="50.0" prefWidth="167.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="251.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/chaleco.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="120.0" layoutY="263.0" text="CHALECO:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="195.0" layoutY="263.0" text="1500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="59.0" layoutY="254.0" mnemonicParsing="false" onAction="#chaleco" opacity="0.0" prefHeight="43.0" prefWidth="180.0" text="comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="319.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pesa.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="125.0" layoutY="332.0" text="PESA:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="170.0" layoutY="332.0" text="1500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="62.0" layoutY="319.0" mnemonicParsing="false" onAction="#pesa" opacity="0.0" prefHeight="50.0" prefWidth="153.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="397.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/eter.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="126.0" layoutY="410.0" text="ETER:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="168.0" layoutY="411.0" text="500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="54.0" layoutY="392.0" mnemonicParsing="false" onAction="#eter" opacity="0.0" prefHeight="60.0" prefWidth="153.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="471.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pila.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="121.0" layoutY="485.0" text="PILA:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="485.0" text="1500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="70.0" layoutY="471.0" mnemonicParsing="false" onAction="#pila" opacity="0.0" prefHeight="50.0" prefWidth="133.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="64.0" layoutY="536.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pluma.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="119.0" layoutY="549.0" text="PLUMA:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="178.0" layoutY="550.0" text="1500">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="66.0" layoutY="540.0" mnemonicParsing="false" onAction="#pluma" opacity="0.0" prefHeight="43.0" prefWidth="153.0" text="Comprar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="126.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/anillo unico.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="labelAnillo" layoutX="763.0" layoutY="137.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="188.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/baston.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="198.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="253.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/chaleco.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="261.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="319.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pesa.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="329.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="398.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/eter.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="407.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="472.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pila.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="481.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="810.0" layoutY="537.0">
+               <image>
+                  <Image url="@../imagenes/objetos_tienda/pluma.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="763.0" layoutY="547.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="430.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/atras/atras.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="430.0" layoutY="535.0" mnemonicParsing="false" onAction="#atras" opacity="0.0" prefHeight="60.0" prefWidth="60.0" text="atras">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

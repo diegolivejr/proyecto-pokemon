@@ -1,0 +1,50 @@
+may 17, 2024 12:36:52 P. M. controller.ControllerCombate initialize
+INFORMACIÓN: Inicializando vista de combate.
+may 17, 2024 12:36:52 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Diglett
+may 17, 2024 12:36:55 P. M. controller.ControllerCombate mostrarEquipo
+INFORMACIÓN: Mostrando equipo del entrenador.
+may 17, 2024 12:36:57 P. M. controller.ControllerCombate$ManejaMousePokemon handle
+INFORMACIÓN: Se ha pulsado el pokemon 0
+may 17, 2024 12:36:57 P. M. controller.ControllerCombate refrescaEntrenador
+INFORMACIÓN: Refrescando datos del entrenador: Charizard
+may 17, 2024 12:36:57 P. M. controller.ControllerCombate setPaladin
+INFORMACIÓN: Nuevo paladín seleccionado: Pepe
+may 17, 2024 12:37:04 P. M. controller.ControllerCombate lucha
+INFORMACIÓN: Preparado para la lucha con el paladín: Pepe
+may 17, 2024 12:37:05 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has elegido el movimiento Placaje
+may 17, 2024 12:37:05 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Diglett
+may 17, 2024 12:37:05 P. M. controller.ControllerCombate turno
+INFORMACIÓN: El rival ha elegido el movimiento Placaje
+may 17, 2024 12:37:05 P. M. controller.ControllerCombate refrescaEntrenador
+INFORMACIÓN: Refrescando datos del entrenador: Charizard
+may 17, 2024 12:37:06 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has elegido el movimiento Placaje
+may 17, 2024 12:37:06 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Diglett
+may 17, 2024 12:37:09 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has derrotado a Diglett
+may 17, 2024 12:37:09 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Machamp
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has elegido el movimiento Placaje
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Machamp
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate turno
+INFORMACIÓN: El rival ha elegido el movimiento Placaje
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate refrescaEntrenador
+INFORMACIÓN: Refrescando datos del entrenador: Charizard
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has elegido el movimiento Placaje
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate refrescaEnemigo
+INFORMACIÓN: Refrescando datos del enemigo: Machamp
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate turno
+INFORMACIÓN: El rival ha elegido el movimiento Placaje
+may 17, 2024 12:37:33 P. M. controller.ControllerCombate refrescaEntrenador
+INFORMACIÓN: Refrescando datos del entrenador: Charizard
+may 17, 2024 12:37:36 P. M. controller.ControllerCombate turno
+ADVERTENCIA: Tu pokémon Pepe ha muerto.
+may 17, 2024 12:37:38 P. M. controller.ControllerCombate turno
+INFORMACIÓN: Has perdido el combate.
